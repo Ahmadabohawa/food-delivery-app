@@ -1,0 +1,16 @@
+.food-display{
+    margin-top: 30px;
+}
+.food-display h2{
+    font-size: max(2vw,24px);
+    font-weight: 600;
+}
+.food-display-list{
+    display: grid;
+    /* auto-fill : the content will stretch to fill the entire row width */
+    /* minmax(200px,1fr) : sets a column width that can vary between 200px and the maximum available space */
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+}
