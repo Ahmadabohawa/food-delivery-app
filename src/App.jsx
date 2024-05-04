@@ -18,6 +18,7 @@ function App() {
         <Navbar setShowLogin={setShowLogin}/>
         <Routes>
           <Route path='/' element={<Home/>}></Route>
+          <Route path='/food-delivery-app/' element={<Home/>}></Route>
           <Route path='/cart' element={<Cart/>}></Route>
           <Route path='/order' element={<PlaceOrder/>}></Route>
         </Routes>
